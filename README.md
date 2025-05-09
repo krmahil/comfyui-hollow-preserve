@@ -75,6 +75,11 @@ This repository includes a test script to visualize the effect on your masks:
 python test_mask.py your_mask.png [break_thickness]
 ```
 
+```
+python test_mask.py your_mask.png 5
+```
+*Note: Minimum break_thickness= 5 inorder to ignore the inner hole *
+
 The script will generate:
 - A processed version of your mask with break lines
 - A side-by-side comparison of original and processed masks
