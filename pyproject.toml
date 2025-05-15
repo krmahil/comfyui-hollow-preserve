@@ -11,4 +11,4 @@ Repository = "https://github.com/krmahil/comfyui-hollow-preserve"
 [tool.comfy]
 PublisherId = "mahilkr"
 DisplayName = "Hollow Preserve"
-Icon = "examples/donut_processed.png" 
+Icon = "https://github.com/krmahil/comfyui-hollow-preserve/blob/main/examples/ComfyUI_00005_.png" 
