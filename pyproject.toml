@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "comfyui-hollow-preserve"
+version = "0.1.0"
+description = "ComfyUI node to remove enclosed areas from masks for better inpainting"
+authors = [
+    {name = "MAHIL K R", email = "mahilkr246810@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+dependencies = [
+    "opencv-python>=4.5.0",
+    "numpy>=1.20.0",
+    "Pillow>=8.0.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/krmahil/comfyui-hollow-preserve"
+
+[tool.comfyui]
+publisher_id = "mahilkr" 
