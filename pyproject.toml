@@ -1,14 +1,14 @@
 [project]
-name = ""
-description = "ComfyUI node to remove enclosed areas from masks for better inpainting"
-version = "1.0.0"
-license = "LICENSE"
+name = "comfyui-hollow-preserve"
+description = "A ComfyUI node that breaks closed loops in masks to prevent inpainting models from modifying enclosed regions"
+version = "0.1.0"
+license = "MIT"
 
 [project.urls]
-Repository = ""
+Repository = "https://github.com/krmahil/comfyui-hollow-preserve"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
-DisplayName = "ComfyUI-AIT"
-Icon = ""
+PublisherId = "mahilkr"
+DisplayName = "Hollow Preserve"
+Icon = "examples/donut_processed.png" 
